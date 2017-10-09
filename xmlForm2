@@ -1,0 +1,1732 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>The 2017 example Survey 2</h:title>
+    <model>
+      <instance>
+        <data id="build_The-2017-Example-Survey_1507585359">
+          <meta>
+            <instanceID/>
+          </meta>
+          <Dev_ID/>
+          <StTime/>
+          <PNo./>
+          <Intro/>
+          <Intro2/>
+          <Consent/>
+          <respName/>
+          <PhoneNo/>
+          <Mship/>
+          <Mship_2/>
+          <QNo./>
+          <IntDate/>
+          <IntLoc>
+            <ML_1/>
+            <ML_2/>
+            <ML_3/>
+            <ML_4/>
+            <IntName/>
+            <SupName/>
+          </IntLoc>
+          <SDP>
+            <SDP_1/>
+            <SDP_2/>
+            <SDP_3/>
+            <SDP_4/>
+            <SDP_4.1/>
+            <SDP_5/>
+            <SDP_5.1/>
+            <SDP_6/>
+            <SDP_7/>
+            <SDP_8/>
+            <SDP_9/>
+            <SDP_10/>
+            <SDP_11/>
+            <SDP_11.5/>
+          </SDP>
+          <HLS>
+            <HLS_12/>
+            <HLS_12.1/>
+            <HLS_12.1.1/>
+            <HLS_12.2/>
+            <HLS_13/>
+            <HLS_13.1/>
+            <HLS_13.1.1/>
+            <HLS_13.2/>
+            <M_2_HLS_2 jr:template="">
+              <HLS_14/>
+              <HLS_14.1.1/>
+            </M_2_HLS_2>
+            <HLS_14.1/>
+            <HLS_15.2/>
+            <HLS_16.3/>
+            <HLS_16.4/>
+            <HLS_17.4/>
+            <M_3_HLS_3 jr:template="">
+              <HLS_18/>
+              <HLS_18.1.1/>
+            </M_3_HLS_3>
+            <HLS_19.1/>
+            <HLS_19.2/>
+            <HLS_19.3/>
+            <HLS_19.4/>
+            <HLS_20.4/>
+            <HLS_21.1/>
+            <HLS_21.2/>
+            <HLS_22/>
+            <HLS_22.1/>
+            <HLS_22.1.1/>
+            <HLS_22.2.1/>
+            <HLS_22.2.2/>
+            <HLS_22.2.3/>
+            <HLS_22.2.3.1/>
+            <HLS_22.3/>
+            <HLS_22.3.1/>
+            <HLS_22.3.2/>
+            <HLS_23/>
+            <HLS_23.1/>
+            <HLS_23.3.1.1/>
+            <HLS_23.2.1/>
+            <HLS_23.2.2/>
+            <DM_25/>
+            <DM_25.1/>
+          </HLS>
+          <DM>
+            <DM_26/>
+            <DM_26.1/>
+            <DM_26.2/>
+          </DM>
+          <CB>
+            <CB_27/>
+            <CB_27.1/>
+            <CB_27.1.1/>
+            <CB_27.2/>
+            <CB_27.3/>
+            <CB_28/>
+            <CB_29/>
+            <CB_30/>
+            <GPS_point/>
+          </CB>
+          <Conc_1/>
+          <Conc_2/>
+          <EnTime/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/Intro:label">
+            <value>Introduction</value>
+          </text>
+          <text id="/data/Intro:hint">
+            <value></value>
+          </text>
+          <text id="/data/Intro2:label">
+            <value>Would you like to ask any questions about this interview?  </value>
+          </text>
+          <text id="/data/Consent:label">
+            <value>Do you agree to be interviewed?</value>
+          </text>
+          <text id="/data/Consent:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/Consent:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/respName:label">
+            <value>What is your name ?</value>
+          </text>
+          <text id="/data/PhoneNo:label">
+            <value>What is your phone number ?</value>
+          </text>
+          <text id="/data/Mship:label">
+            <value>Membership status ?</value>
+          </text>
+          <text id="/data/Mship:option0">
+            <value>Group Member</value>
+          </text>
+          <text id="/data/Mship:option1">
+            <value>Individual/No Membership</value>
+          </text>
+          <text id="/data/Mship_2:label">
+            <value>What is the name of your group ?</value>
+          </text>
+          <text id="/data/QNo.:label">
+            <value>Questionnaire number</value>
+          </text>
+          <text id="/data/IntDate:label">
+            <value>Interview date</value>
+          </text>
+          <text id="/data/IntDate:hint">
+            <value>dd/mm/yyyy</value>
+          </text>
+          <text id="/data/IntLoc:label">
+            <value>Interview Location</value>
+          </text>
+          <text id="/data/IntLoc/ML_1:label">
+            <value>What is your county ?</value>
+          </text>
+          <text id="/data/IntLoc/ML_2:label">
+            <value>What is your sub county ?</value>
+          </text>
+          <text id="/data/IntLoc/ML_3:label">
+            <value>What is your ward ?</value>
+          </text>
+          <text id="/data/IntLoc/ML_4:label">
+            <value>What is your village/estate ?</value>
+          </text>
+          <text id="/data/IntLoc/IntName:label">
+            <value>Interviewer's name ?</value>
+          </text>
+          <text id="/data/IntLoc/IntName:option0">
+            <value>DUNCAN OMONDI OWINO</value>
+          </text>
+          <text id="/data/IntLoc/IntName:option1">
+            <value>BERVELIN YITO NGOME</value>
+          </text>
+          <text id="/data/IntLoc/IntName:option2">
+            <value>PAULINE ATIENO ANYONA</value>
+          </text>
+          <text id="/data/IntLoc/SupName:label">
+            <value>Supervisor's name ?</value>
+          </text>
+          <text id="/data/SDP:label">
+            <value>MODULE 1: SOCIO-DEMOGRAPHIC PROFILE</value>
+          </text>
+          <text id="/data/SDP/SDP_1:label">
+            <value>Residence</value>
+          </text>
+          <text id="/data/SDP/SDP_1:option0">
+            <value>Rural</value>
+          </text>
+          <text id="/data/SDP/SDP_1:option1">
+            <value>Urban</value>
+          </text>
+          <text id="/data/SDP/SDP_2:label">
+            <value>Gender of respondent</value>
+          </text>
+          <text id="/data/SDP/SDP_2:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/SDP/SDP_2:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/SDP/SDP_3:label">
+            <value>Ethnic community of the respondent ?</value>
+          </text>
+          <text id="/data/SDP/SDP_4:label">
+            <value>Have you attended school ?</value>
+          </text>
+          <text id="/data/SDP/SDP_4:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/SDP/SDP_4:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/SDP/SDP_4.1:label">
+            <value>What is the highest level of school you completed?</value>
+          </text>
+          <text id="/data/SDP/SDP_4.1:option0">
+            <value>Primary complete</value>
+          </text>
+          <text id="/data/SDP/SDP_4.1:option1">
+            <value>Primary Incomplete</value>
+          </text>
+          <text id="/data/SDP/SDP_4.1:option2">
+            <value>Secondary+</value>
+          </text>
+          <text id="/data/SDP/SDP_5:label">
+            <value> What languages do you know? </value>
+          </text>
+          <text id="/data/SDP/SDP_5:option0">
+            <value>Kiswahili</value>
+          </text>
+          <text id="/data/SDP/SDP_5:option1">
+            <value>English</value>
+          </text>
+          <text id="/data/SDP/SDP_5:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/SDP/SDP_5.1:label">
+            <value>Other (specify)</value>
+          </text>
+          <text id="/data/SDP/SDP_6:label">
+            <value>How old are you?</value>
+          </text>
+          <text id="/data/SDP/SDP_6:hint">
+            <value>Age</value>
+          </text>
+          <text id="/data/SDP/SDP_7:label">
+            <value>How long in years have you been living here?</value>
+          </text>
+          <text id="/data/SDP/SDP_8:label">
+            <value>What is your marital status ?</value>
+          </text>
+          <text id="/data/SDP/SDP_8:option0">
+            <value>Married</value>
+          </text>
+          <text id="/data/SDP/SDP_8:option1">
+            <value>Single</value>
+          </text>
+          <text id="/data/SDP/SDP_8:option2">
+            <value>Widow/Widower</value>
+          </text>
+          <text id="/data/SDP/SDP_9:label">
+            <value>How many children do you have?</value>
+          </text>
+          <text id="/data/SDP/SDP_10:label">
+            <value>How many dependents are living with your family? </value>
+          </text>
+          <text id="/data/SDP/SDP_10:hint">
+            <value>Adults excluding your own children</value>
+          </text>
+          <text id="/data/SDP/SDP_11:label">
+            <value>What is your religion?</value>
+          </text>
+          <text id="/data/SDP/SDP_11:option0">
+            <value>Christian</value>
+          </text>
+          <text id="/data/SDP/SDP_11:option1">
+            <value>Islam</value>
+          </text>
+          <text id="/data/SDP/SDP_11:option2">
+            <value>Hindu</value>
+          </text>
+          <text id="/data/SDP/SDP_11:option3">
+            <value>Traditional</value>
+          </text>
+          <text id="/data/SDP/SDP_11:option4">
+            <value>Other (specify)</value>
+          </text>
+          <text id="/data/SDP/SDP_11.5:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS:label">
+            <value>MODULE 2: HOUSEHOLD LIVELIHOODS SOURCES</value>
+          </text>
+          <text id="/data/HLS/HLS_12:label">
+            <value>Do you work or earn income from any sources ?</value>
+          </text>
+          <text id="/data/HLS/HLS_12:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/HLS/HLS_12:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:label">
+            <value>What is the source of income ?</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option0">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option1">
+            <value>Livestock rearing/selling</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option2">
+            <value>Busines</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option3">
+            <value>Other trading/business</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option4">
+            <value>Fishing</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option5">
+            <value>Artisan: mason, carpenter</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option6">
+            <value>Casual labour in agriculture</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option7">
+            <value>Other casual labour</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option8">
+            <value>Civil servant /Other Employee</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option9">
+            <value>Remittances from relatives</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option10">
+            <value>Renting out land to others</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1:option11">
+            <value>Other (specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_12.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_12.2:label">
+            <value>What is the type of your business?</value>
+          </text>
+          <text id="/data/HLS/HLS_13:label">
+            <value>Have you been supported in anyway by anyone to improve your business?</value>
+          </text>
+          <text id="/data/HLS/HLS_13:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/HLS/HLS_13:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:label">
+            <value>What was the nature of support?</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:option0">
+            <value>School fees loan</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:option1">
+            <value>Business loan</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:option2">
+            <value>Goods on credit</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:option3">
+            <value>Training</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1:option4">
+            <value>Other (please specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_13.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_13.2:label">
+            <value>Who supported you? (List all)</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2:label">
+            <value>MODULE 2: HOUSEHOLD LIVELIHOODS SOURCES 2</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:label">
+            <value>List in order of importance the 4 main sources of your income? </value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:hint">
+            <value>(1=most important, 4=least important)</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option0">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option1">
+            <value>Livestock rearing/selling</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option2">
+            <value>Business</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option3">
+            <value>Other trading/business</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option4">
+            <value>Fishing</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option5">
+            <value>Artisan: mason, carpenter</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option6">
+            <value>Casual labour in agriculture</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option7">
+            <value>Other casual labour</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option8">
+            <value>Civil servant /Other Employee</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option9">
+            <value>Remittances from abroad</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option10">
+            <value>Renting out land to others</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14:option11">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/HLS/M_2_HLS_2/HLS_14.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_14.1:label">
+            <value>What is your business WEEKLY income (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_15.2:label">
+            <value>What is your business MONTHLY income (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_16.3:label">
+            <value>What was your business ANNUAL income in 2016 (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_16.4:label">
+            <value>What is your business ANNUAL income in 2017 (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_17.4:label">
+            <value>How is your current income compared to the previous 12 month? (circle response)</value>
+          </text>
+          <text id="/data/HLS/HLS_17.4:option0">
+            <value>Higher</value>
+          </text>
+          <text id="/data/HLS/HLS_17.4:option1">
+            <value>Similar</value>
+          </text>
+          <text id="/data/HLS/HLS_17.4:option2">
+            <value>Lower</value>
+          </text>
+          <text id="/data/HLS/HLS_17.4:option3">
+            <value>Dont know</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3:label">
+            <value>MODULE 2: HOUSEHOLD LIVELIHOODS SOURCES 3</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:label">
+            <value>In the past 12 month what were your 4 greatest expenditures in order of importance?</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:hint">
+            <value> (1=most, 4=least)</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option0">
+            <value>Food</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option1">
+            <value>House equipment purchase</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option2">
+            <value>Clothes</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option3">
+            <value>Fuel</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option4">
+            <value>Agricultural inputs</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option5">
+            <value>Livestock</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option6">
+            <value>Other productive assets: tools, machinery</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option7">
+            <value>Health expenses</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option8">
+            <value>Education expenses</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option9">
+            <value>Social expenses (wedding, funerals)</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option10">
+            <value>Salaries/wages</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18:option11">
+            <value>Other (specify)</value>
+          </text>
+          <text id="/data/HLS/M_3_HLS_3/HLS_18.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_19.1:label">
+            <value>What is your WEEKLY expenditure (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_19.2:label">
+            <value>What is your MONTHLY expenditure (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_19.3:label">
+            <value>What was your ANNUAL expenditure in 2016 (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_19.4:label">
+            <value>What is your ANNUAL expenditure in 2017 (in local currency)? </value>
+          </text>
+          <text id="/data/HLS/HLS_20.4:label">
+            <value>Has there been any change in your expenditure in the last 12 month? </value>
+          </text>
+          <text id="/data/HLS/HLS_20.4:option0">
+            <value>Higher</value>
+          </text>
+          <text id="/data/HLS/HLS_20.4:option1">
+            <value>Similar</value>
+          </text>
+          <text id="/data/HLS/HLS_20.4:option2">
+            <value>Lower</value>
+          </text>
+          <text id="/data/HLS/HLS_20.4:option3">
+            <value>Dont know</value>
+          </text>
+          <text id="/data/HLS/HLS_21.1:label">
+            <value>In 2016 how many people (owners, employees) were actively engaged in your business? </value>
+          </text>
+          <text id="/data/HLS/HLS_21.1:hint">
+            <value>2016 figures only</value>
+          </text>
+          <text id="/data/HLS/HLS_21.2:label">
+            <value>In 2017 how many people (owners, employees) are currently actively engaged in your business? </value>
+          </text>
+          <text id="/data/HLS/HLS_21.2:hint">
+            <value>2017 figures only, head count if they are present.</value>
+          </text>
+          <text id="/data/HLS/HLS_22:label">
+            <value>Do you have any debt or loan from the group or organization?</value>
+          </text>
+          <text id="/data/HLS/HLS_22:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/HLS/HLS_22:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:label">
+            <value>What type of debt do you have so far “please specify its nature”</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:option0">
+            <value>School fees loan</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:option1">
+            <value>Car loan</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:option2">
+            <value>Business Loan</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:option3">
+            <value>Goods</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1:option4">
+            <value>Other (please specify</value>
+          </text>
+          <text id="/data/HLS/HLS_22.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_22.2.1:label">
+            <value>How much debt approximately did you obtain from the group ?</value>
+          </text>
+          <text id="/data/HLS/HLS_22.2.2:label">
+            <value>How much debt approximately did you obtain from the organization?</value>
+          </text>
+          <text id="/data/HLS/HLS_22.2.3:label">
+            <value>How much debt approximately did you obtain from other sources, please specify?</value>
+          </text>
+          <text id="/data/HLS/HLS_22.2.3.1:label">
+            <value>If you obtained debt from other sources please specify which sources ?</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:label">
+            <value>How did you use the debt or loan that you obtained from the group or elsewhere?</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option0">
+            <value>Start a business </value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option1">
+            <value>Pay school fees</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option2">
+            <value>Obtain health services</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option3">
+            <value>Fend for the family</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option4">
+            <value>Purchase land</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3:option5">
+            <value>Other (please specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_22.3.2:label">
+            <value>How much did you spend on starting the business ?</value>
+          </text>
+          <text id="/data/HLS/HLS_23:label">
+            <value>Do you have any savings that you could use in the event of an emergency?</value>
+          </text>
+          <text id="/data/HLS/HLS_23:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/HLS/HLS_23:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:label">
+            <value>What is the main source of your savings </value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option0">
+            <value>Agriculture</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option1">
+            <value>Livestock rearing/selling</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option2">
+            <value>Business</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option3">
+            <value>Other trading/business</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option4">
+            <value>Fishing</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option5">
+            <value>Tailoring, mason, carpenter</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option6">
+            <value>Casual labour in agriculture</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option7">
+            <value>Other casual labour</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option8">
+            <value>Civil servant /Other Employee</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option9">
+            <value>Remittances from relatives</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option10">
+            <value>Renting out land to others</value>
+          </text>
+          <text id="/data/HLS/HLS_23.1:option11">
+            <value>Others (Specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_23.3.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/HLS/HLS_23.2.1:label">
+            <value>How much did you save last week?</value>
+          </text>
+          <text id="/data/HLS/HLS_23.2.1:hint">
+            <value>Saving per week</value>
+          </text>
+          <text id="/data/HLS/HLS_23.2.2:label">
+            <value>What is your total savings to date? </value>
+          </text>
+          <text id="/data/HLS/HLS_23.2.2:hint">
+            <value>Total Savings </value>
+          </text>
+          <text id="/data/HLS/DM_25:label">
+            <value>Who makes decisions regarding investment and expenditures in your household? </value>
+          </text>
+          <text id="/data/HLS/DM_25:option0">
+            <value>Husband</value>
+          </text>
+          <text id="/data/HLS/DM_25:option1">
+            <value>Wife</value>
+          </text>
+          <text id="/data/HLS/DM_25:option2">
+            <value>Husband and Wife</value>
+          </text>
+          <text id="/data/HLS/DM_25:option3">
+            <value>Older children</value>
+          </text>
+          <text id="/data/HLS/DM_25:option4">
+            <value>Mother in law</value>
+          </text>
+          <text id="/data/HLS/DM_25:option5">
+            <value>Other (please specify)</value>
+          </text>
+          <text id="/data/HLS/DM_25.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/DM:label">
+            <value>MODULE 2: DECISION MAKING</value>
+          </text>
+          <text id="/data/DM/DM_26:label">
+            <value>Have you had a physical confrontation with your husband / spouse / family members in the recent past?</value>
+          </text>
+          <text id="/data/DM/DM_26:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/DM/DM_26:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/DM/DM_26.1:label">
+            <value>If yes, what was the cause and how did you solve it?</value>
+          </text>
+          <text id="/data/DM/DM_26.2:label">
+            <value>If no, what make you stay comfortably without confrontation?</value>
+          </text>
+          <text id="/data/CB:label">
+            <value>MODULE 2: CAPACITY BUILDING</value>
+          </text>
+          <text id="/data/CB/CB_27:label">
+            <value>Have you participated in any activity organized by Organization or received any support from the Organization?</value>
+          </text>
+          <text id="/data/CB/CB_27:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/CB/CB_27:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/CB/CB_27.1:label">
+            <value>What was the nature of support? </value>
+          </text>
+          <text id="/data/CB/CB_27.1:option0">
+            <value>Business skills and entrepreneurship training</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option1">
+            <value>Group coaching and mentorship</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option2">
+            <value>Peer learning &amp; reflection forums meetings</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option3">
+            <value>Business development trainings</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option4">
+            <value>Life skills and leadership training</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option5">
+            <value>Business loans</value>
+          </text>
+          <text id="/data/CB/CB_27.1:option6">
+            <value>Other (Please specify)</value>
+          </text>
+          <text id="/data/CB/CB_27.1.1:label">
+            <value>Other(specify)</value>
+          </text>
+          <text id="/data/CB/CB_27.2:label">
+            <value>Did your business and livelihood of your family change for the better as a result of support from the Organization?</value>
+          </text>
+          <text id="/data/CB/CB_27.2:option0">
+            <value>Strongly agree </value>
+          </text>
+          <text id="/data/CB/CB_27.2:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/CB/CB_27.2:option2">
+            <value>Neutral </value>
+          </text>
+          <text id="/data/CB/CB_27.2:option3">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/CB/CB_27.2:option4">
+            <value>Strongly disagree </value>
+          </text>
+          <text id="/data/CB/CB_27.3:label">
+            <value>How? What are the changes (positive or negative)?</value>
+          </text>
+          <text id="/data/CB/CB_28:label">
+            <value>Do you have any financial records for your business?</value>
+          </text>
+          <text id="/data/CB/CB_28:option0">
+            <value>Yes, seen</value>
+          </text>
+          <text id="/data/CB/CB_28:option1">
+            <value>Yes, not seen</value>
+          </text>
+          <text id="/data/CB/CB_28:option2">
+            <value>Don't have</value>
+          </text>
+          <text id="/data/CB/CB_29:label">
+            <value>Take a photo of the records </value>
+          </text>
+          <text id="/data/CB/CB_30:label">
+            <value>Take a photo of the respondent at the business premises.</value>
+          </text>
+          <text id="/data/CB/GPS_point:label">
+            <value>Capture the GPS Point of the Interview</value>
+          </text>
+          <text id="/data/Conc_1:label">
+            <value>It being that the respondent is not willing to be interviewed end the session and thank him/her for the time.</value>
+          </text>
+          <text id="/data/Conc_2:label">
+            <value>Thank the respondent for participation.</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/Dev_ID" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+      <bind nodeset="/data/StTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/PNo." type="string" jr:preload="property" jr:preloadParams="phonenumber"/>
+      <bind nodeset="/data/Intro" type="string" readonly="true()"/>
+      <bind nodeset="/data/Intro2" type="string" required="true()"/>
+      <bind nodeset="/data/Consent" type="select1" required="true()"/>
+      <bind nodeset="/data/respName" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/PhoneNo" type="int" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/Mship" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/Mship_2" type="string" required="true()" relevant="(selected(/data/Mship, '1')) and ((/data/Consent = 'Yes') and (/data/Mship = '1'))"/>
+      <bind nodeset="/data/QNo." type="int" required="true()" relevant="((/data/Consent = 'Yes'))" constraint="(. &gt;= '1') and (. &lt;= '100')" jr:constraintMsg="Value must be between 1 and 100"/>
+      <bind nodeset="/data/IntDate" type="date" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/ML_1" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/ML_2" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/ML_3" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/ML_4" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/IntName" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/IntLoc/SupName" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_1" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_2" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_3" type="string" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_4" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_4.1" type="select1" required="true()" relevant="((/data/Consent = 'Yes')) and (/data/SDP/SDP_4='1')"/>
+      <bind nodeset="/data/SDP/SDP_5" type="select" relevant="((/data/Consent = 'Yes')) and ((/data/SDP/SDP_4='1') or (/data/SDP/SDP_4='2'))"/>
+      <bind nodeset="/data/SDP/SDP_5.1" type="string" relevant="((/data/Consent = 'Yes')) and (selected(/data/SDP/SDP_5, '98'))"/>
+      <bind nodeset="/data/SDP/SDP_6" type="int" required="true()" relevant="((/data/Consent = 'Yes'))" constraint="(. &gt;= '1') and (. &lt;= '100')" jr:constraintMsg="Value must be between 1 and 100"/>
+      <bind nodeset="/data/SDP/SDP_7" type="int" required="true()" relevant="((/data/Consent = 'Yes'))" constraint="(. &gt;= '1') and (. &lt;= '100')" jr:constraintMsg="Value must be between 1 and 100"/>
+      <bind nodeset="/data/SDP/SDP_8" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_9" type="int" required="true()" relevant="((/data/Consent = 'Yes'))" constraint="(. &gt;= '0') and (. &lt;= '100')" jr:constraintMsg="Value must be between 0 and 100"/>
+      <bind nodeset="/data/SDP/SDP_10" type="int" required="true()" relevant="((/data/Consent = 'Yes'))" constraint="(. &gt;= '0') and (. &lt;= '100')" jr:constraintMsg="Value must be between 0 and 100"/>
+      <bind nodeset="/data/SDP/SDP_11" type="select1" required="true()" relevant="((/data/Consent = 'Yes'))"/>
+      <bind nodeset="/data/SDP/SDP_11.5" type="string" required="true()" relevant="((/data/Consent = 'Yes')) and (selected(/data/SDP/SDP_11, '98'))"/>
+      <bind nodeset="/data/HLS" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_12" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_12.1" type="select" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))"/>
+      <bind nodeset="/data/HLS/HLS_12.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/HLS_12.1, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_12.2" type="string" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))"/>
+      <bind nodeset="/data/HLS/HLS_13" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))"/>
+      <bind nodeset="/data/HLS/HLS_13.1" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_13 = '1') )"/>
+      <bind nodeset="/data/HLS/HLS_13.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/HLS_13.1, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_13.2" type="string" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_13 = '1') )"/>
+      <bind nodeset="/data/HLS/M_2_HLS_2" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '2') or (/data/HLS/HLS_13 = '2') or (/data/HLS/HLS_13 = 1) )"/>
+      <bind nodeset="/data/HLS/M_2_HLS_2/HLS_14" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '2') or (/data/HLS/HLS_13 = '2') or (/data/HLS/HLS_13 = 1) )"/>
+      <bind nodeset="/data/HLS/M_2_HLS_2/HLS_14.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '2') or (/data/HLS/HLS_13 = '2') or (/data/HLS/HLS_13 = 1) ) and (selected(/data/HLS/M_2_HLS_2/HLS_14, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_14.1" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_15.2" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_16.3" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_16.4" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_12 = '1'))" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_17.4" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/M_3_HLS_3" relevant="(/data/Consent = 'Yes') and (/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/M_3_HLS_3/HLS_18" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and (/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/M_3_HLS_3/HLS_18.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (/data/Consent = 'Yes') and (selected(/data/HLS/M_3_HLS_3/HLS_18, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_19.1" type="int" required="true()" relevant="(/data/Consent = 'Yes')" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_19.2" type="int" required="true()" relevant="(/data/Consent = 'Yes')" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_19.3" type="int" required="true()" relevant="(/data/Consent = 'Yes')" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_19.4" type="int" required="true()" relevant="(/data/Consent = 'Yes')" constraint="(. &gt;= '1')" jr:constraintMsg="Value must be between 1 and anything"/>
+      <bind nodeset="/data/HLS/HLS_20.4" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_21.1" type="int" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_21.2" type="int" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_22" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_22.1" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))"/>
+      <bind nodeset="/data/HLS/HLS_22.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/HLS_22.1, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_22.2.1" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))" constraint="(. &gt;= '0')" jr:constraintMsg="Value must be between 0 and anything"/>
+      <bind nodeset="/data/HLS/HLS_22.2.2" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))" constraint="(. &gt;= '0')" jr:constraintMsg="Value must be between 0 and anything"/>
+      <bind nodeset="/data/HLS/HLS_22.2.3" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))" constraint="(. &gt;= '0')" jr:constraintMsg="Value must be between 0 and anything"/>
+      <bind nodeset="/data/HLS/HLS_22.2.3.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22.2.3 &gt; 1))"/>
+      <bind nodeset="/data/HLS/HLS_22.3" type="select" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))"/>
+      <bind nodeset="/data/HLS/HLS_22.3.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/HLS_22.3, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_22.3.2" type="int" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_22 = '1'))" constraint="(. &gt;= '0')" jr:constraintMsg="Value must be between 0 and anything"/>
+      <bind nodeset="/data/HLS/HLS_23" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/HLS/HLS_23.1" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and (/data/HLS/HLS_23 = '1')"/>
+      <bind nodeset="/data/HLS/HLS_23.3.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/HLS_23.1, '98'))"/>
+      <bind nodeset="/data/HLS/HLS_23.2.1" type="int" relevant="(/data/Consent = 'Yes') and (/data/HLS/HLS_23 = '1')"/>
+      <bind nodeset="/data/HLS/HLS_23.2.2" type="int" required="true()" relevant="(/data/Consent = 'Yes') and (/data/HLS/HLS_23 = '1')" constraint="(. &gt;= '0')" jr:constraintMsg="Value must be between 0 and anything"/>
+      <bind nodeset="/data/HLS/DM_25" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/HLS/HLS_23 = '2'))"/>
+      <bind nodeset="/data/HLS/DM_25.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/HLS/DM_25, '98'))"/>
+      <bind nodeset="/data/DM" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/DM/DM_26" type="select1" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/DM/DM_26.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (/data/DM/DM_26 = '1')"/>
+      <bind nodeset="/data/DM/DM_26.2" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (/data/DM/DM_26 = '2')"/>
+      <bind nodeset="/data/CB" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/CB/CB_27" type="select1" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/CB/CB_27.1" type="select" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/CB/CB_27 = '1'))"/>
+      <bind nodeset="/data/CB/CB_27.1.1" type="string" required="true()" relevant="(/data/Consent = 'Yes') and (selected(/data/CB/CB_27.1, '98'))"/>
+      <bind nodeset="/data/CB/CB_27.2" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/CB/CB_27 = '1'))"/>
+      <bind nodeset="/data/CB/CB_27.3" type="string" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/CB/CB_27 = '1'))"/>
+      <bind nodeset="/data/CB/CB_28" type="select1" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/CB/CB_27 = '1') or (/data/CB/CB_27.3 &gt; 1))"/>
+      <bind nodeset="/data/CB/CB_29" type="binary" required="true()" relevant="(/data/Consent = 'Yes') and ((/data/CB/CB_28 = '1') and (/data/CB/CB_27 = '1'))"/>
+      <bind nodeset="/data/CB/CB_30" type="binary" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/CB/GPS_point" type="geopoint" required="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/Conc_1" type="string" readonly="true()" relevant="(/data/Consent = 'No')"/>
+      <bind nodeset="/data/Conc_2" type="string" readonly="true()" relevant="(/data/Consent = 'Yes')"/>
+      <bind nodeset="/data/EnTime" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/Intro">
+      <label ref="jr:itext('/data/Intro:label')"/>
+      <hint ref="jr:itext('/data/Intro:hint')"/>
+    </input>
+    <input ref="/data/Intro2">
+      <label ref="jr:itext('/data/Intro2:label')"/>
+    </input>
+    <select1 ref="/data/Consent">
+      <label ref="jr:itext('/data/Consent:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Consent:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Consent:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <input ref="/data/respName">
+      <label ref="jr:itext('/data/respName:label')"/>
+    </input>
+    <input ref="/data/PhoneNo">
+      <label ref="jr:itext('/data/PhoneNo:label')"/>
+    </input>
+    <select1 ref="/data/Mship">
+      <label ref="jr:itext('/data/Mship:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Mship:option0')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Mship:option1')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <input ref="/data/Mship_2">
+      <label ref="jr:itext('/data/Mship_2:label')"/>
+    </input>
+    <range ref="/data/QNo." start="1" end="100" step="1" appearance="picker">
+      <label ref="jr:itext('/data/QNo.:label')"/>
+    </range>
+    <input ref="/data/IntDate">
+      <label ref="jr:itext('/data/IntDate:label')"/>
+      <hint ref="jr:itext('/data/IntDate:hint')"/>
+    </input>
+    <group>
+      <label ref="jr:itext('/data/IntLoc:label')"/>
+      <input ref="/data/IntLoc/ML_1">
+        <label ref="jr:itext('/data/IntLoc/ML_1:label')"/>
+      </input>
+      <input ref="/data/IntLoc/ML_2">
+        <label ref="jr:itext('/data/IntLoc/ML_2:label')"/>
+      </input>
+      <input ref="/data/IntLoc/ML_3">
+        <label ref="jr:itext('/data/IntLoc/ML_3:label')"/>
+      </input>
+      <input ref="/data/IntLoc/ML_4">
+        <label ref="jr:itext('/data/IntLoc/ML_4:label')"/>
+      </input>
+      <select1 ref="/data/IntLoc/IntName">
+        <label ref="jr:itext('/data/IntLoc/IntName:label')"/>
+        <item>
+          <label ref="jr:itext('/data/IntLoc/IntName:option0')"/>
+          <value>DUNCAN_OMONDI_OWINO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/IntLoc/IntName:option1')"/>
+          <value>BERVELIN_YITO_NGOME</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/IntLoc/IntName:option2')"/>
+          <value>PAULINE_ATIENO_ANYONA</value>
+        </item>
+      </select1>
+      <input ref="/data/IntLoc/SupName">
+        <label ref="jr:itext('/data/IntLoc/SupName:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/SDP:label')"/>
+      <select1 ref="/data/SDP/SDP_1">
+        <label ref="jr:itext('/data/SDP/SDP_1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_1:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/data/SDP/SDP_2">
+        <label ref="jr:itext('/data/SDP/SDP_2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_2:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_2:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/data/SDP/SDP_3">
+        <label ref="jr:itext('/data/SDP/SDP_3:label')"/>
+      </input>
+      <select1 ref="/data/SDP/SDP_4">
+        <label ref="jr:itext('/data/SDP/SDP_4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_4:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_4:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/data/SDP/SDP_4.1">
+        <label ref="jr:itext('/data/SDP/SDP_4.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_4.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_4.1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_4.1:option2')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select ref="/data/SDP/SDP_5">
+        <label ref="jr:itext('/data/SDP/SDP_5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_5:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_5:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_5:option2')"/>
+          <value>98</value>
+        </item>
+      </select>
+      <input ref="/data/SDP/SDP_5.1">
+        <label ref="jr:itext('/data/SDP/SDP_5.1:label')"/>
+      </input>
+      <input ref="/data/SDP/SDP_6">
+        <label ref="jr:itext('/data/SDP/SDP_6:label')"/>
+        <hint ref="jr:itext('/data/SDP/SDP_6:hint')"/>
+      </input>
+      <input ref="/data/SDP/SDP_7">
+        <label ref="jr:itext('/data/SDP/SDP_7:label')"/>
+      </input>
+      <select1 ref="/data/SDP/SDP_8">
+        <label ref="jr:itext('/data/SDP/SDP_8:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_8:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_8:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_8:option2')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <input ref="/data/SDP/SDP_9">
+        <label ref="jr:itext('/data/SDP/SDP_9:label')"/>
+      </input>
+      <input ref="/data/SDP/SDP_10">
+        <label ref="jr:itext('/data/SDP/SDP_10:label')"/>
+        <hint ref="jr:itext('/data/SDP/SDP_10:hint')"/>
+      </input>
+      <select1 ref="/data/SDP/SDP_11">
+        <label ref="jr:itext('/data/SDP/SDP_11:label')"/>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_11:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_11:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_11:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_11:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/SDP/SDP_11:option4')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <input ref="/data/SDP/SDP_11.5">
+        <label ref="jr:itext('/data/SDP/SDP_11.5:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/HLS:label')"/>
+      <select1 ref="/data/HLS/HLS_12">
+        <label ref="jr:itext('/data/HLS/HLS_12:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select ref="/data/HLS/HLS_12.1">
+        <label ref="jr:itext('/data/HLS/HLS_12.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option9')"/>
+          <value>10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option10')"/>
+          <value>11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_12.1:option11')"/>
+          <value>98</value>
+        </item>
+      </select>
+      <input ref="/data/HLS/HLS_12.1.1">
+        <label ref="jr:itext('/data/HLS/HLS_12.1.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_12.2">
+        <label ref="jr:itext('/data/HLS/HLS_12.2:label')"/>
+      </input>
+      <select1 ref="/data/HLS/HLS_13">
+        <label ref="jr:itext('/data/HLS/HLS_13:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/data/HLS/HLS_13.1">
+        <label ref="jr:itext('/data/HLS/HLS_13.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13.1:option1')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13.1:option2')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13.1:option3')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_13.1:option4')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <input ref="/data/HLS/HLS_13.1.1">
+        <label ref="jr:itext('/data/HLS/HLS_13.1.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_13.2">
+        <label ref="jr:itext('/data/HLS/HLS_13.2:label')"/>
+      </input>
+      <group>
+        <label ref="jr:itext('/data/HLS/M_2_HLS_2:label')"/>
+        <repeat nodeset="/data/HLS/M_2_HLS_2">
+          <select1 ref="/data/HLS/M_2_HLS_2/HLS_14">
+            <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:label')"/>
+            <hint ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:hint')"/>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option0')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option1')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option2')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option3')"/>
+              <value>4</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option4')"/>
+              <value>5</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option5')"/>
+              <value>6</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option6')"/>
+              <value>7</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option7')"/>
+              <value>8</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option8')"/>
+              <value>9</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option9')"/>
+              <value>10</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option10')"/>
+              <value>11</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14:option11')"/>
+              <value>98</value>
+            </item>
+          </select1>
+          <input ref="/data/HLS/M_2_HLS_2/HLS_14.1.1">
+            <label ref="jr:itext('/data/HLS/M_2_HLS_2/HLS_14.1.1:label')"/>
+          </input>
+        </repeat>
+      </group>
+      <input ref="/data/HLS/HLS_14.1">
+        <label ref="jr:itext('/data/HLS/HLS_14.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_15.2">
+        <label ref="jr:itext('/data/HLS/HLS_15.2:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_16.3">
+        <label ref="jr:itext('/data/HLS/HLS_16.3:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_16.4">
+        <label ref="jr:itext('/data/HLS/HLS_16.4:label')"/>
+      </input>
+      <select1 ref="/data/HLS/HLS_17.4">
+        <label ref="jr:itext('/data/HLS/HLS_17.4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_17.4:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_17.4:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_17.4:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_17.4:option3')"/>
+          <value>4</value>
+        </item>
+      </select1>
+      <group>
+        <label ref="jr:itext('/data/HLS/M_3_HLS_3:label')"/>
+        <repeat nodeset="/data/HLS/M_3_HLS_3">
+          <select1 ref="/data/HLS/M_3_HLS_3/HLS_18">
+            <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:label')"/>
+            <hint ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:hint')"/>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option0')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option1')"/>
+              <value>2</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option2')"/>
+              <value>3</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option3')"/>
+              <value>4</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option4')"/>
+              <value>5</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option5')"/>
+              <value>6</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option6')"/>
+              <value>7</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option7')"/>
+              <value>8</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option8')"/>
+              <value>9</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option9')"/>
+              <value>10</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option10')"/>
+              <value>11</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18:option11')"/>
+              <value>98</value>
+            </item>
+          </select1>
+          <input ref="/data/HLS/M_3_HLS_3/HLS_18.1.1">
+            <label ref="jr:itext('/data/HLS/M_3_HLS_3/HLS_18.1.1:label')"/>
+          </input>
+        </repeat>
+      </group>
+      <input ref="/data/HLS/HLS_19.1">
+        <label ref="jr:itext('/data/HLS/HLS_19.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_19.2">
+        <label ref="jr:itext('/data/HLS/HLS_19.2:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_19.3">
+        <label ref="jr:itext('/data/HLS/HLS_19.3:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_19.4">
+        <label ref="jr:itext('/data/HLS/HLS_19.4:label')"/>
+      </input>
+      <select1 ref="/data/HLS/HLS_20.4">
+        <label ref="jr:itext('/data/HLS/HLS_20.4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_20.4:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_20.4:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_20.4:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_20.4:option3')"/>
+          <value>4</value>
+        </item>
+      </select1>
+      <input ref="/data/HLS/HLS_21.1">
+        <label ref="jr:itext('/data/HLS/HLS_21.1:label')"/>
+        <hint ref="jr:itext('/data/HLS/HLS_21.1:hint')"/>
+      </input>
+      <input ref="/data/HLS/HLS_21.2">
+        <label ref="jr:itext('/data/HLS/HLS_21.2:label')"/>
+        <hint ref="jr:itext('/data/HLS/HLS_21.2:hint')"/>
+      </input>
+      <select1 ref="/data/HLS/HLS_22">
+        <label ref="jr:itext('/data/HLS/HLS_22:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/data/HLS/HLS_22.1">
+        <label ref="jr:itext('/data/HLS/HLS_22.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.1:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.1:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.1:option4')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <input ref="/data/HLS/HLS_22.1.1">
+        <label ref="jr:itext('/data/HLS/HLS_22.1.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_22.2.1">
+        <label ref="jr:itext('/data/HLS/HLS_22.2.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_22.2.2">
+        <label ref="jr:itext('/data/HLS/HLS_22.2.2:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_22.2.3">
+        <label ref="jr:itext('/data/HLS/HLS_22.2.3:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_22.2.3.1">
+        <label ref="jr:itext('/data/HLS/HLS_22.2.3.1:label')"/>
+      </input>
+      <select ref="/data/HLS/HLS_22.3">
+        <label ref="jr:itext('/data/HLS/HLS_22.3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_22.3:option5')"/>
+          <value>98</value>
+        </item>
+      </select>
+      <input ref="/data/HLS/HLS_22.3.1">
+        <label ref="jr:itext('/data/HLS/HLS_22.3.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_22.3.2">
+        <label ref="jr:itext('/data/HLS/HLS_22.3.2:label')"/>
+      </input>
+      <select1 ref="/data/HLS/HLS_23">
+        <label ref="jr:itext('/data/HLS/HLS_23:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select1 ref="/data/HLS/HLS_23.1">
+        <label ref="jr:itext('/data/HLS/HLS_23.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option9')"/>
+          <value>10</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option10')"/>
+          <value>11</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/HLS_23.1:option11')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <input ref="/data/HLS/HLS_23.3.1.1">
+        <label ref="jr:itext('/data/HLS/HLS_23.3.1.1:label')"/>
+      </input>
+      <input ref="/data/HLS/HLS_23.2.1">
+        <label ref="jr:itext('/data/HLS/HLS_23.2.1:label')"/>
+        <hint ref="jr:itext('/data/HLS/HLS_23.2.1:hint')"/>
+      </input>
+      <input ref="/data/HLS/HLS_23.2.2">
+        <label ref="jr:itext('/data/HLS/HLS_23.2.2:label')"/>
+        <hint ref="jr:itext('/data/HLS/HLS_23.2.2:hint')"/>
+      </input>
+      <select1 ref="/data/HLS/DM_25">
+        <label ref="jr:itext('/data/HLS/DM_25:label')"/>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/HLS/DM_25:option5')"/>
+          <value>98</value>
+        </item>
+      </select1>
+      <input ref="/data/HLS/DM_25.1">
+        <label ref="jr:itext('/data/HLS/DM_25.1:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/DM:label')"/>
+      <select1 ref="/data/DM/DM_26">
+        <label ref="jr:itext('/data/DM/DM_26:label')"/>
+        <item>
+          <label ref="jr:itext('/data/DM/DM_26:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/DM/DM_26:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/data/DM/DM_26.1">
+        <label ref="jr:itext('/data/DM/DM_26.1:label')"/>
+      </input>
+      <input ref="/data/DM/DM_26.2">
+        <label ref="jr:itext('/data/DM/DM_26.2:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/CB:label')"/>
+      <select1 ref="/data/CB/CB_27">
+        <label ref="jr:itext('/data/CB/CB_27:label')"/>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <select ref="/data/CB/CB_27.1">
+        <label ref="jr:itext('/data/CB/CB_27.1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.1:option6')"/>
+          <value>98</value>
+        </item>
+      </select>
+      <input ref="/data/CB/CB_27.1.1">
+        <label ref="jr:itext('/data/CB/CB_27.1.1:label')"/>
+      </input>
+      <select1 ref="/data/CB/CB_27.2">
+        <label ref="jr:itext('/data/CB/CB_27.2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.2:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.2:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.2:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.2:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_27.2:option4')"/>
+          <value>5</value>
+        </item>
+      </select1>
+      <input ref="/data/CB/CB_27.3">
+        <label ref="jr:itext('/data/CB/CB_27.3:label')"/>
+      </input>
+      <select1 ref="/data/CB/CB_28">
+        <label ref="jr:itext('/data/CB/CB_28:label')"/>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_28:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_28:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/CB/CB_28:option2')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <upload ref="/data/CB/CB_29" mediatype="image/*">
+        <label ref="jr:itext('/data/CB/CB_29:label')"/>
+      </upload>
+      <upload ref="/data/CB/CB_30" mediatype="image/*">
+        <label ref="jr:itext('/data/CB/CB_30:label')"/>
+      </upload>
+      <input ref="/data/CB/GPS_point">
+        <label ref="jr:itext('/data/CB/GPS_point:label')"/>
+      </input>
+    </group>
+    <input ref="/data/Conc_1">
+      <label ref="jr:itext('/data/Conc_1:label')"/>
+    </input>
+    <input ref="/data/Conc_2">
+      <label ref="jr:itext('/data/Conc_2:label')"/>
+    </input>
+  </h:body>
+</h:html>
